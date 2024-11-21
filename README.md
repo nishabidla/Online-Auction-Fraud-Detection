@@ -63,7 +63,7 @@ Online-Auction-Fraud-Detection/
 
 Run the following commands in your terminal:
 ```bash
-git clone https://github.com/<your-username>/Online-Auction-Fraud-Detection.git
+git clone https://github.com/<nishabidla>/Online-Auction-Fraud-Detection.git
 cd Online-Auction-Fraud-Detection
 ```
 ### Step 2: Set Up the Database
