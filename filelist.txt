@@ -1,0 +1,146 @@
+Folder PATH listing for volume Windows-SSD
+Volume serial number is BC21-D6F5
+C:.
+¦   filelist.txt
+¦   LICENSE
+¦   README.md
+¦   
++---docs
+¦       Abstract Online Modeling.doc
+¦       BIBLIOGRAPHY & ABBREVIATIONS.doc
+¦       Complete Project report.pdf
+¦       CONCLUSION.doc
+¦       Existing System Online Modeling.doc
+¦       HARDWARE   SOFTWARE SPECIFICATION.doc
+¦       IMPLEMENTATION.doc
+¦       INPUT DESIGN &OUTPUT DESIGN.doc
+¦       INTRODUCTION.doc
+¦       Literature survey.doc
+¦       Online Modeling of Proactive Moderation System for.pdf
+¦       onlinemodlingdesign.docx
+¦       Proposed System Online Modeling.doc
+¦       Software Environment.doc
+¦       SYSTEM DESIGN.doc
+¦       SYSTEM STUDY.doc
+¦       SYSTEM TESTING.doc
+¦       
++---resources
+¦   ¦   logo-blank.jpg
+¦   ¦   logoPSD.psd
+¦   ¦   OAFD.pptx
+¦   ¦   
+¦   +---product
+¦   ¦       fridge.png
+¦   ¦       laptop.png
+¦   ¦       pendrive.jpg
+¦   ¦       show_image.php3.png
+¦   ¦       Thumbs.db
+¦   ¦       tv.png
+¦   ¦       
+¦   +---productS
+¦           0036864_0.png
+¦           0146555_PE305549_S5.wdp.jxr
+¦           15.6-OMEN-by-HP-with-new-brand-logo-on-screen-Front-Facing.jpg
+¦           15NDD222_PS2.jpg
+¦           1952_brewcr.jpg
+¦           30497001485_92a6bd1b2c_z.jpg
+¦           3d-isometric-animations-90s-electronic-items-rc-4x4.gif
+¦           
++---src
+    +---css
+    ¦       style.css
+    ¦       
+    +---database
+    ¦       auction_fraud.sql
+    ¦       db-aut.sql
+    ¦       
+    +---html
+    ¦       index.html
+    ¦       
+    +---images
+    ¦       bar_gree.jpg
+    ¦       bar_red1.jpg
+    ¦       bg.png
+    ¦       bg_main.png
+    ¦       comp.jpeg
+    ¦       comp.png
+    ¦       comp1.jpeg
+    ¦       footer-bg-l.png
+    ¦       footer-bg-r.png
+    ¦       footer-bg.png
+    ¦       form-bg-bottom.png
+    ¦       form-bg-top.png
+    ¦       form-bg.png
+    ¦       form-intro-bg.png
+    ¦       header.jpg
+    ¦       home.jpg
+    ¦       index.html
+    ¦       key.jpeg
+    ¦       key.png
+    ¦       log1.png
+    ¦       login.png
+    ¦       login1.png
+    ¦       logo.jpg
+    ¦       nav-bg.png
+    ¦       nav-sep.png
+    ¦       new.jpg
+    ¦       reg.png
+    ¦       sca1.jpg
+    ¦       seller.jpg
+    ¦       show_image.php3.png
+    ¦       submit-bg.png
+    ¦       Thumbs.db
+    ¦       ver.png
+    ¦       
+    +---jsp
+    ¦       admin_all_sel.jsp
+    ¦       admin_home.jsp
+    ¦       admin_log.jsp
+    ¦       admin_log1.jsp
+    ¦       admin_seller.jsp
+    ¦       admin_trust.jsp
+    ¦       image.jsp
+    ¦       more_det.jsp
+    ¦       my_products.jsp
+    ¦       off_search.jsp
+    ¦       purchase_insert.jsp
+    ¦       re_offers.jsp
+    ¦       re_offers1.jsp
+    ¦       re_offer_insert.jsp
+    ¦       re_pro_insert.jsp
+    ¦       seller_home.jsp
+    ¦       seller_log.jsp
+    ¦       seller_log1.jsp
+    ¦       seller_signup.jsp
+    ¦       seller_signup1.jsp
+    ¦       set_autho.jsp
+    ¦       set_block.jsp
+    ¦       set_untru.jsp
+    ¦       user_complaint.jsp
+    ¦       user_com_insert.jsp
+    ¦       user_home.jsp
+    ¦       user_log.jsp
+    ¦       user_log1.jsp
+    ¦       user_signup.jsp
+    ¦       user_signup1.jsp
+    ¦       
+    +---WEB-INF
+        ¦   web.xml
+        ¦   
+        +---classes
+        ¦   ¦   databasecon.java
+        ¦   ¦   
+        ¦   +---databaseconnection
+        ¦           databasecon.class
+        ¦           
+        +---lib
+        ¦       activation.jar
+        ¦       cos.jar
+        ¦       mail.jar
+        ¦       multipartrequest.jar
+        ¦       mysql.jar
+        ¦       pager-taglib.jar
+        ¦       
+        +---META-INF
+                MANIFEST.MF
+                

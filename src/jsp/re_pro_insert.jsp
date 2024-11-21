@@ -32,7 +32,7 @@ String b = request.getParameter("proname");
 String c = request.getParameter("wardate");
 String d = request.getParameter("proimage");
 String e = request.getParameter("prorate");
-String f="C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\OnlineModelingofProactive\product\";
+String f="D:\\apache-tomcat-6.0.18\\webapps\\Auction_Fraud\\product\\";
 String g=f+d;
 File image=new File(g);
 try{

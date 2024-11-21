@@ -44,11 +44,6 @@ return false;
 }
 
 
-
-
-
-
-
 var k = document.s.mob.value;
 if(k=="")
 {
@@ -83,41 +78,6 @@ alert("Please enter a valid Email Id");
 document.s.eid.focus();
 return false;
 }
-
-
-
-
-var kk = document.s.mob1.value;
-if(kk=="")
-{
-alert("Enter adhaar number");
-document.s.mob1.focus();
-return false;
-}
-if(isNaN(kk))
-{
-alert("Enter adhaar number in numbers");
-document.s.mob1.focus();
-return false;
-}
-
-if(kk.length!=12)
-{
-alert("Enter 12 digits");
-document.s.mob1.focus();
-return false;
-}
-
-
-
-
-
-
-
-
-
-
-
 var webfilter=/www\.[a-z]+\.(com)|(org)|(edu)|(net)$/;
 var n=webfilter.test(document.s.wid.value);
 if(n==false)
@@ -234,10 +194,6 @@ session.setAttribute("u3",u3);
                   <tr> 
                     <td><font face="Courier New" size="+1"><strong>Email ID</strong></font></td>
                     <td>&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" name="eid"  id="b"></td>
-                  </tr>
-				   <tr> 
-                    <td><font face="Courier New" size="+1"><strong>Adhaar No</strong></font></td>
-                    <td>&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" name="mob1"  id="b"></td>
                   </tr>
                   <tr> 
                     <td><font face="Courier New" size="+1"><strong>Website</strong></font></td>

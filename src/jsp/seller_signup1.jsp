@@ -31,7 +31,6 @@ String x = request.getParameter("un");
 String y = request.getParameter("cn");
 String b = request.getParameter("pass");
 String c = request.getParameter("mob");
-String c1 = request.getParameter("mob1");
 String d = request.getParameter("eid");
 String e = request.getParameter("wid");
 String ff="unregistered";
@@ -40,19 +39,17 @@ try{
 con=databasecon.getconnection();
 
 
-psmt1=con.prepareStatement("insert into seller(uid,name,cname,userid,pass,mobile,adhaar,email,webadd,date,authorize) values(?,?,?,?,?,?,?,?,?,?,?)");
+psmt1=con.prepareStatement("insert into seller(uid,name,cname,userid,pass,mobile,email,webadd,date,authorize) values(?,?,?,?,?,?,?,?,?,?)");
 psmt1.setString(1,u3);
 psmt1.setString(2,x);
 psmt1.setString(3,y);
 psmt1.setString(4,a);
 psmt1.setString(5,b);
 psmt1.setString(6,c);
-psmt1.setString(7,c1);
-psmt1.setString(8,d);
-psmt1.setString(9,e);
-psmt1.setString(10,strDateNew1);
-psmt1.setString(11,ff);
-
+psmt1.setString(7,d);
+psmt1.setString(8,e);
+psmt1.setString(9,strDateNew1);
+psmt1.setString(10,ff);
 
 psmt1.executeUpdate();
 response.sendRedirect("seller_signup.jsp?message=success");

@@ -60,7 +60,6 @@
                     <td align="center"><font color="#110022"><strong>Name</strong></font></td>
                     <td align="center"><font color="#110022"><strong>Phone No</strong></font></td>
                     <td align="center"><font color="#110022"><strong>Email Id</strong></font></td>
-					  <td align="center"><font color="#110022"><strong>Adhaar no</strong></font></td>
                     <td align="center"><font color="#110022"><strong>Website</strong></font></td>
 					 <td align="center"><font color="#110022"><strong>Date</strong></font></td>
                     <td align="center"><font color="#110022"><strong>Authorize</strong></font></td>
@@ -69,7 +68,7 @@
 			
 			
 			
-			String name=null,cid=null,cname=null,ph=null,email=null,ano=null,web=null,da=null;
+			String name=null,cid=null,cname=null,ph=null,email=null,web=null,da=null;
 ResultSet rs=null;
 String tr="Unregistered";
 try
@@ -86,8 +85,6 @@ try
 	cname=rs.getString("cname");
 	ph=rs.getString("mobile");
 	email=rs.getString("email");
-	ano=rs.getString("adhaar");
-	
 	web =rs.getString("webadd");
 	da=rs.getString("date");
 	
@@ -102,8 +99,6 @@ try
                     <td align="center"><strong><font color="#6300C6"><%=ph%> 
                       </font></strong></td>
                     <td align="center"><strong><font color="#6300C6"> <%=email%> 
-                      </font></strong></td>
-					  <td align="center"><strong><font color="#6300C6"> <%=ano%> 
                       </font></strong></td>
                     <td align="center"><strong><font color="#6300C6"> <%=web%> 
                       </font></strong></td>
