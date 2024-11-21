@@ -60,10 +60,56 @@ Online-Auction-Fraud-Detection/
 ## How to Run
 
 ### Step 1: Clone the Repository
+
 Run the following commands in your terminal:
 ```bash
 git clone https://github.com/<your-username>/Online-Auction-Fraud-Detection.git
 cd Online-Auction-Fraud-Detection
+```
+### Step 2: Set Up the Database
+
+1. Open MySQL or any database tool.
+2. Import the ```auction_fraud.sql``` file from the ```src/database/``` folder:
+```
+mysql -u root -p < auction_fraud.sql
+```
+3. Update the database connection in the ```WEB-INF/classes/databasecon.class``` file:
+```
+String url = "jdbc:mysql://localhost:3306/your_database_name";
+String user = "root";
+String password = "your_password";
+```
+### Step 3: Deploy the Application
+1. Install and set up **Apache Tomcat**.
+2. Copy the Online-Auction-Fraud-Detection folder to Tomcat's webapps directory.
+Start the Tomcat server and access the application in your browser at:
+plaintext
+Copy code
+http://localhost:8080/Online-Auction-Fraud-Detection
+Step 4: Run the Application
+Admin Login:
+Use the admin credentials to manage users and monitor fraud activity.
+Buyer/Seller:
+Sign up as a buyer or seller and interact with the auction.
+Contribution
+Fork the repository.
+Create a feature branch:
+bash
+Copy code
+git checkout -b feature-name
+Commit your changes:
+bash
+Copy code
+git commit -m "Add feature XYZ"
+Push and create a pull request:
+bash
+Copy code
+git push origin feature-name
+License
+This project is licensed under the MIT License.
+
+Contact
+If you have any questions, reach out at [Your Email/Username].
 
 
 
