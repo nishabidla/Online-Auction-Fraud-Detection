@@ -60,9 +60,10 @@ Online-Auction-Fraud-Detection/
 
 ### Step 1: Clone the Repository
 Run the following commands in your terminal:
-bash
+```bash
 git clone https://github.com/<your-username>/Online-Auction-Fraud-Detection.git
 cd Online-Auction-Fraud-Detection
+
 
 
 
