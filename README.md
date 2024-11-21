@@ -1,38 +1,70 @@
-
 # Online Auction Fraud Detection System
 
-### Overview
-This project develops an online, machine-learned model for detecting fraudulent activities in e-commerce auctions. The system uses a proactive moderation approach to identify and mitigate fraud in real-time, leveraging advanced techniques such as online feature selection and multiple instance learning.
+## Overview
+This project is a proactive fraud detection system for online auctions. It leverages a combination of machine learning models, data-driven insights, and real-time moderation techniques to identify and mitigate fraudulent activities in auction platforms. 
 
-### Features
-- Proactive fraud detection in online auctions.
-- Online probit model with human-knowledge-based coefficient bounds.
-- Real-time fraud moderation and analysis.
-- Easy-to-extend framework for adding new features or algorithms.
+## Features
+- Proactive fraud detection using database rules and online modeling.
+- User management (buyers, sellers, and admins) with role-specific features.
+- Real-time analysis of auction activities.
+- Scalable and modular design for integrating additional fraud detection algorithms.
 
-### Technologies Used
-- **Programming Language**: Java (JSP, HTML, CSS)
-- **Database**: SQL
-- **Machine Learning**: Online feature selection, probit models
-- **Tools**: Eclipse IDE, MySQL, Apache Tomcat
+## Technologies Used
+- **Frontend**: JSP, HTML, CSS
+- **Backend**: Java, SQL
+- **Database**: MySQL
+- **Server**: Apache Tomcat
+- **Libraries**: JAR files for database connectivity and email activation
 
-### Folder Structure
+## Folder Structure
 ```plaintext
 Online-Auction-Fraud-Detection/
-├── README.md               # Overview of the project
-├── docs/                   # Documentation
-│   ├── ABSTRACT Online Modeling.docx
-│   ├── INTRODUCTION.doc
+├── docs/                   # Documentation files
+│   ├── Abstract Online Modeling.doc
+│   ├── Complete Project report.pdf
 │   ├── SYSTEM DESIGN.doc
-├── src/                    # Source code
+│   ├── ...
+├── resources/              # Supporting materials
+│   ├── logo-blank.jpg
+│   ├── logoPSD.psd
+│   ├── product/
+│   ├── productS/
+│   ├── OAFD.pptx
+├── src/                    # Source code and assets
 │   ├── jsp/                # JSP files
 │   │   ├── admin_log.jsp
 │   │   ├── user_log.jsp
+│   │   ├── ...
 │   ├── css/                # CSS files
 │   │   ├── style.css
-│   ├── images/             # Media assets
-│   │   ├── comp.png
-│   │   ├── header.jpg
-│   ├── sql/                # Database files
-│       ├── auction_fraud.sql
-├── results/                # Outputs or logs (empty for now)
+│   ├── html/               # HTML files
+│   │   ├── index.html
+│   ├── images/             # Images
+│   │   ├── bar_gree.jpg
+│   │   ├── login.png
+│   │   ├── ...
+│   ├── database/           # SQL files
+│   │   ├── auction_fraud.sql
+│   │   ├── db-aut.sql
+│   ├── WEB-INF/            # Deployment configuration
+│   │   ├── web.xml
+│   │   ├── META-INF/
+│   │   │   ├── MANIFEST.MF
+│   │   ├── classes/
+│   │   ├── lib/
+│   │       ├── activation.jar
+│   │       ├── mysql.jar
+│   │       ├── ...
+
+
+## How to Run
+
+### Step 1: Clone the Repository
+Run the following commands in your terminal:
+bash
+git clone https://github.com/<your-username>/Online-Auction-Fraud-Detection.git
+cd Online-Auction-Fraud-Detection
+
+
+
+
