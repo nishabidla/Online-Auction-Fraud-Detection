@@ -1,5 +1,4 @@
-# Define the content for README.md
-readme_content = """
+
 # Online Auction Fraud Detection System
 
 ### Overview
