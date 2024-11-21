@@ -110,7 +110,7 @@ String password = "your_password";
    │   │   ├── lib/
    │   │       ├── mysql.jar
   
-  ```
+  
 ### Step 4: Run the Application
 
 1. **Admin Login:**
@@ -121,5 +121,57 @@ String password = "your_password";
 Username: admin
 Password: admin123
 ```
+2. **Buyer/Seller:**
+- Register and log in as a buyer or seller to interact with the auction system.
+
+### Step 5: Debug and Verify
+
+1. **Verify Database Connection:**
+
+- Ensure your database is running and the connection details in `WEB-INF/classes/databasecon.class` are correct.
+- Check for successful connection logs in Tomcat.
+2. **Test Key Features:**
+
+- Admin:
+   - Add and manage users.
+   - View and handle complaints or fraudulent activities.
+     
+- Buyer/Seller:
+   - Browse auctions and place bids.
+   - Submit complaints (if needed).
+
+3. **Fix Errors (if any):**
+
+- Use Tomcat logs (logs/catalina.out) to identify and resolve issues.
+  
+### Contribution
+1. **Fork the repository.**
+2. **Create a feature branch:**
+```bash
+git checkout -b feature-name
+```
+3. **Commit your changes:**
+```bash
+git commit -m "Add feature XYZ"
+```
+4. **Push and create a pull request:**
+```bash
+git push origin feature-name
+```
+### License
+This project is licensed under the MIT License.
+
+### Contact
+
+If you have any questions, feel free to reach out:
+
+- **Email**: [nishabidla0817@gmail.com](nishabidla0817@gmail.com)
+- **GitHub Profile**: [nishabidla](https://github.com/nishabidla)
+- **LinkedIn Profile**: [nisha_bidla](https://www.linkedin.com/in/nisha-kumari-bidla-850255146/)
+
+
+
+
+
 
 
