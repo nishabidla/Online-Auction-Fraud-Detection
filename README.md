@@ -56,7 +56,6 @@ Online-Auction-Fraud-Detection/
 │   │       ├── mysql.jar
 │   │       ├── ...
 
-
 ## How to Run
 
 ### Step 1: Clone the Repository
