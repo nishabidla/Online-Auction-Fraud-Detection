@@ -85,7 +85,7 @@ mysql -u root -p < src/database/auction_fraud.sql
 ```
 - Update the database connection in the ```WEB-INF/classes/databasecon.class``` file:
 ```
-String url = "jdbc:mysql://localhost:3306/your_database_name";
+String url = "jdbc:mysql://localhost:3306/auction_fraud";
 String user = "root";
 String password = "your_password";
 ```
