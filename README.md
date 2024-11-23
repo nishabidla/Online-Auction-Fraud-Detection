@@ -81,7 +81,7 @@ cd Online-Auction-Fraud-Detection
 - Open MySQL or any database tool.
 - Import the `auction_fraud.sql` file from the `src/database/` folder:
 ```
-mysql -u root -p < auction_fraud.sql
+mysql -u root -p < src/database/auction_fraud.sql
 ```
 - Update the database connection in the ```WEB-INF/classes/databasecon.class``` file:
 ```
@@ -119,6 +119,7 @@ String password = "your_password";
    │   │   │   ├── MANIFEST.MF
    │   │   ├── lib/
    │   │       ├── mysql.jar
+   │   │       ├── activation.jar
   
   
 ### Step 4: Run the Application
@@ -128,8 +129,10 @@ String password = "your_password";
 - Use admin credentials to manage users and auction activity.
 - Default credentials (if applicable):
 ```
-Username: admin
-Password: admin123
+   **Default Credentials**:
+      **Username**: `admin`
+      **Password**: `admin123`
+
 ```
 2. **Buyer/Seller:**
 - Register and log in as a buyer or seller to interact with the auction system.
@@ -175,13 +178,6 @@ This project is licensed under the MIT License.
 
 If you have any questions, feel free to reach out:
 
-- **Email**: [nishabidla0817@gmail.com](nishabidla0817@gmail.com)
+- **Email**: [nishabidla0817@gmail.com](mailto:nishabidla0817@gmail.com)
 - **GitHub Profile**: [nishabidla](https://github.com/nishabidla)
 - **LinkedIn Profile**: [nisha_bidla](https://www.linkedin.com/in/nisha-kumari-bidla-850255146/)
-
-
-
-
-
-
-
