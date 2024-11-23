@@ -9,9 +9,9 @@ This project was developed as part of our **Bachelor's major project** in **Comp
 
 ### Our Team:
 The project was a collective effort by the following team members:
-- [**Shaik Abdul Sahil Majeed**] (https://www.linkedin.com/in/shaik-abdul-majeed-sahil-410b51151/)
-- [**Nisha Kumari Bidla**] (https://www.linkedin.com/in/nisha-kumari-bidla-850255146/)
-- [**S. Sai Shravya**]  (https://www.linkedin.com/in/saishravyasimhadri/)
+- [**Shaik Abdul Sahil Majeed**](https://www.linkedin.com/in/shaik-abdul-majeed-sahil-410b51151/)
+- [**Nisha Kumari Bidla**](https://www.linkedin.com/in/nisha-kumari-bidla-850255146/)
+- [**S. Sai Shravya**](https://www.linkedin.com/in/saishravyasimhadri/)
 
 ## Features
 - Proactive fraud detection using database rules and online modeling.
