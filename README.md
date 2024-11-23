@@ -1,7 +1,17 @@
 # Online Auction Fraud Detection System
 
 ## Overview
-This project is a proactive fraud detection system for online auctions. It leverages a combination of machine learning models, data-driven insights, and real-time moderation techniques to identify and mitigate fraudulent activities in auction platforms. 
+
+**Online Auction Fraud Detection** is a system designed to address the growing challenges of fraud in online auction platforms. By integrating database-driven fraud detection rules, real-time monitoring, and a user-friendly interface, the system ensures a secure and reliable environment for buyers, sellers, and administrators.
+
+This project was developed as part of our **Bachelor's major project** in **Computer Science and Engineering** during the academic years **2015-2019**. It was completed under the guidance of **Mrs. K. Suparna (Assistant Professor)** at **Kommuri Pratap Reddy Institute of Technology**, affiliated with **Jawaharlal Nehru Technological University, Hyderabad (JNTUH)**.
+
+
+### Our Team:
+The project was a collective effort by the following team members:
+- [**Shaik Abdul Sahil Majeed**] (https://www.linkedin.com/in/shaik-abdul-majeed-sahil-410b51151/)
+- [**Nisha Kumari Bidla**] (https://www.linkedin.com/in/nisha-kumari-bidla-850255146/)
+- [**S. Sai Shravya**]  (https://www.linkedin.com/in/saishravyasimhadri/)
 
 ## Features
 - Proactive fraud detection using database rules and online modeling.
